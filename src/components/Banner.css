@@ -1,0 +1,6 @@
+.banner__icon:hover {
+  border-top: 1px solid #6a69f5 !important;
+  border-right: 1px solid #6a69f5 !important;
+  border-bottom: 1px solid #6a69f5 !important;
+  border-radius: 5px !important;
+}

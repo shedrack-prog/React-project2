@@ -1,0 +1,217 @@
+/* .header {
+  position: fixed;
+  top: 0;
+  align-items: center;
+  z-index: 100;
+  background-color: transparent; */
+/* #f9f9fb */
+/* justify-content: center;
+  height: 80px;
+  width: 100%;
+}
+.header__black {
+  backdrop-filter: blur(10px);
+}
+
+.header__contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding: 8px 8px;
+}
+
+.logo {
+  font-size: 40px;
+  color: #161616;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.logo > a {
+  text-decoration: none;
+  color: #161616;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.link:hover .rounded {
+  background-color: #6a69f5;
+}
+
+.link {
+  font-size: 16px;
+  margin-right: 15px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.link:hover .rounded {
+  background-color: #6a69f5;
+}
+.rounded {
+  height: 5px;
+  width: 5px;
+  border-radius: 10px;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.link > a {
+  color: #9c9c9e;
+  text-decoration: none;
+}
+
+.hire__button {
+  margin-left: 20px;
+  background-color: #6a69f5;
+  padding: 8px 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.hire__button:hover {
+  transform: scale(1.1);
+}
+
+.hire__button > a {
+  color: white;
+  text-decoration: none;
+}
+
+.icon {
+  display: none;
+}
+
+.mobile__div {
+  display: none;
+} */
+
+/* mobile responsive design */
+
+/* @media screen and (max-width: 768px) {
+  .mobile__div {
+    display: block;
+  }
+  .logo {
+    font-size: 35px;
+    padding: 5px;
+  }
+  .nav {
+    display: none;
+  }
+  .icon {
+    display: block;
+    color: #161616;
+    cursor: pointer;
+  }
+
+  .mobile__div {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    width: 70%;
+    height: 100vh;
+    z-index: 10;
+    transition: ease;
+    box-shadow: 0 0 20px rgba(168, 168, 168, 0.15);
+  }
+
+  .close__icon {
+    position: absolute;
+    color: #161616;
+    margin-bottom: 30px;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+  }
+
+  .mobile__links {
+    margin-top: 40px;
+    padding: 10px;
+    list-style: none;
+  }
+  a {
+    color: #161616;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  a:hover {
+    color: #6a69f5;
+    translate: scale(1.5);
+  }
+  .mobile__link {
+    margin-top: 30px;
+    color: #161616;
+    margin-bottom: 15px;
+  }
+  .mobile__link:hover {
+    color: #6a69f5;
+  }
+  .hire__button__mobile {
+    width: 70%;
+    background-color: #6a69f5;
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  .hire__button__mobile:hover {
+    transform: scale(1.02);
+  }
+  .hire__button__mobile:hover > a:hover {
+    color: black;
+  }
+  .hireMe__mobile {
+    color: white;
+    font-style: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mobile__div {
+    display: block;
+  }
+  .logo {
+    font-size: 24px;
+  }
+  .close__icon {
+    font-size: 13px;
+  }
+} */
+
+.link:hover .circle {
+  background-color: gray;
+}
+.active {
+  background-color: #6a69f5;
+}
+
+.header__bg {
+  backdrop-filter: blur(10px);
+}
+
+.link-mobile:hover .circle-mobile {
+  background-color: #6a69f5;
+}
+
+.mobile-menu {
+  z-index: 999;
+}
